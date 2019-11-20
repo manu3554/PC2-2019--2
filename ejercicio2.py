@@ -1,3 +1,5 @@
+import os
+os.system("cls")
 def contarletra(texto,letra):
     contador = 0
     for i in texto:
