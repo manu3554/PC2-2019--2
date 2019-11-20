@@ -16,10 +16,10 @@ while True:
         a.append(n)
         b.append(m)
         c.append(k)
-    if m == "masculino":
-        cont_mas = cont_mas+1
-    if m == "femenino":
-        cont_fem = cont_fem+1
+        if m == "masculino":
+            cont_mas = cont_mas+1
+        if m == "femenino":
+            cont_fem = cont_fem+1
     if len(c)==5:
         break
 suma_edad = 0
