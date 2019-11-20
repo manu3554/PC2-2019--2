@@ -6,6 +6,8 @@ c = []
 cont_mas = 0
 cont_fem = 0
 
+import os
+os.system("cls")
 while True:
     n = input("Ingrese nombre:")
     m = input("Ingrese sexo:")
@@ -30,9 +32,9 @@ prom_edad = suma_edad/cant_edad
     
 
 print("Lista de inscritos:")
-print(a)
-print(b)
-print(c)
+print("los nombres son",a)
+print("los sexos respectivamente son:",b)
+print("las edades respectivamente son",c)
 print("Hay",cont_mas,"hombres")
 print("Hay",cont_fem,"mujeres")
 print("el promedio de las edades es:",prom_edad)
